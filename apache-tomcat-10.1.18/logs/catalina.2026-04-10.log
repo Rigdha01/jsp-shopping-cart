@@ -1,0 +1,44 @@
+10-Apr-2026 11:33:34.094 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.18
+10-Apr-2026 11:33:34.102 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 5 2024 14:39:40 UTC
+10-Apr-2026 11:33:34.103 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.18.0
+10-Apr-2026 11:33:34.105 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+10-Apr-2026 11:33:34.106 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.8.0-1044-azure
+10-Apr-2026 11:33:34.106 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+10-Apr-2026 11:33:34.106 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/local/sdkman/candidates/java/25.0.1-ms
+10-Apr-2026 11:33:34.106 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           25.0.1+8-LTS
+10-Apr-2026 11:33:34.106 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Microsoft
+10-Apr-2026 11:33:34.106 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /workspaces/jsp-shopping-cart/apache-tomcat-10.1.18
+10-Apr-2026 11:33:34.106 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /workspaces/jsp-shopping-cart/apache-tomcat-10.1.18
+10-Apr-2026 11:33:34.242 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/workspaces/jsp-shopping-cart/apache-tomcat-10.1.18/conf/logging.properties
+10-Apr-2026 11:33:34.242 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Apr-2026 11:33:34.243 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+10-Apr-2026 11:33:34.243 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+10-Apr-2026 11:33:34.243 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+10-Apr-2026 11:33:34.243 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+10-Apr-2026 11:33:34.244 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+10-Apr-2026 11:33:34.244 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+10-Apr-2026 11:33:34.244 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+10-Apr-2026 11:33:34.245 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+10-Apr-2026 11:33:34.245 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/workspaces/jsp-shopping-cart/apache-tomcat-10.1.18
+10-Apr-2026 11:33:34.245 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/workspaces/jsp-shopping-cart/apache-tomcat-10.1.18
+10-Apr-2026 11:33:34.246 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/workspaces/jsp-shopping-cart/apache-tomcat-10.1.18/temp
+10-Apr-2026 11:33:34.253 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+10-Apr-2026 11:33:35.242 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+10-Apr-2026 11:33:35.282 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [2563] milliseconds
+10-Apr-2026 11:33:35.332 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+10-Apr-2026 11:33:35.332 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.18]
+10-Apr-2026 11:33:35.488 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/workspaces/jsp-shopping-cart/apache-tomcat-10.1.18/webapps/jsp-shopping-cart.war]
+10-Apr-2026 11:33:37.202 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Apr-2026 11:33:37.261 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/workspaces/jsp-shopping-cart/apache-tomcat-10.1.18/webapps/jsp-shopping-cart.war] has finished in [1,766] ms
+10-Apr-2026 11:33:37.262 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/jsp-shopping-cart/apache-tomcat-10.1.18/webapps/docs]
+10-Apr-2026 11:33:37.302 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/jsp-shopping-cart/apache-tomcat-10.1.18/webapps/docs] has finished in [40] ms
+10-Apr-2026 11:33:37.302 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/jsp-shopping-cart/apache-tomcat-10.1.18/webapps/examples]
+10-Apr-2026 11:33:37.562 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/jsp-shopping-cart/apache-tomcat-10.1.18/webapps/examples] has finished in [259] ms
+10-Apr-2026 11:33:37.564 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/jsp-shopping-cart/apache-tomcat-10.1.18/webapps/manager]
+10-Apr-2026 11:33:37.617 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/jsp-shopping-cart/apache-tomcat-10.1.18/webapps/manager] has finished in [55] ms
+10-Apr-2026 11:33:37.618 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/jsp-shopping-cart/apache-tomcat-10.1.18/webapps/host-manager]
+10-Apr-2026 11:33:37.636 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/jsp-shopping-cart/apache-tomcat-10.1.18/webapps/host-manager] has finished in [18] ms
+10-Apr-2026 11:33:37.637 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/jsp-shopping-cart/apache-tomcat-10.1.18/webapps/ROOT]
+10-Apr-2026 11:33:37.655 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/jsp-shopping-cart/apache-tomcat-10.1.18/webapps/ROOT] has finished in [17] ms
+10-Apr-2026 11:33:37.658 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+10-Apr-2026 11:33:37.695 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2410] milliseconds
