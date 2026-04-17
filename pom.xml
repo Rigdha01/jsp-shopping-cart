@@ -1,31 +1,33 @@
+//pom (project object model)-it is used to manage dependencies, configure the projects and build and manage the applications
 <project xmlns="http://maven.apache.org/POM/4.0.0"
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
 <modelVersion>4.0.0</modelVersion>
 
-<groupId>com.example</groupId>
-<artifactId>jsp-shopping-cart</artifactId>
-<version>1.0-SNAPSHOT</version>
-<packaging>war</packaging>
+<groupId>com.example</groupId>//basic project info
+<artifactId>jsp-shopping-cart</artifactId>//basic project info
+<version>1.0-SNAPSHOT</version>//basic project info
+<packaging>war</packaging>>//basic project info
 
-<name>jsp-shopping-cart</name>
+<name>jsp-shopping-cart</name>//project name
 
 <properties>
-    <maven.compiler.source>17</maven.compiler.source>
-    <maven.compiler.target>17</maven.compiler.target>
+    <maven.compiler.source>17</maven.compiler.source>//java source version 17
+    <maven.compiler.target>17</maven.compiler.target>//java target version 17
 </properties>
 
 <dependencies>
 
- 
+ //used for https servlet, http req, http sessions
 <dependency>
-    <groupId>jakarta.servlet</groupId>
+    <groupId>jakarta.servlet</groupId> 
     <artifactId>jakarta.servlet-api</artifactId>
     <version>6.0.0</version>
     <scope>provided</scope>
 </dependency>
-
+ 
+//it is used for jsp pages
 <dependency>
     <groupId>jakarta.servlet.jsp</groupId>
     <artifactId>jakarta.servlet.jsp-api</artifactId>
@@ -34,6 +36,7 @@
 </dependency>
 
 
+//it is used for <c:for Each> <c:choose> <c:when>
 <dependency>
     <groupId>org.glassfish.web</groupId>
     <artifactId>jakarta.servlet.jsp.jstl</artifactId>
